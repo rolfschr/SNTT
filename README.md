@@ -8,16 +8,16 @@ USAGE
 
 Simply run
 
-`$> ./sntt`
+	$> ./sntt
 
 or make a link ...
 
-`$> cd ~/bin
-$> ln -s link/to/sntt.git/sntt`
+	$> cd ~/bin
+	$> ln -s link/to/sntt.git/sntt
 
 ... and then run
 
-`$> sntt`
+	$> sntt
 
 LICENCE
 =======
