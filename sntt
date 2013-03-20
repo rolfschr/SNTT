@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+
+import random
+
+def gen(size = 10):
+	return random.sample(range(10), size)
+
+if __name__ == '__main__':
+	print 'Type \'q\' to quit'
+	prompt = '> '
+	msg = ''
+	while (msg != 'q'):
+		target = gen()
+		print '%s%s' % (prompt, (' '.join([str(i) for i in target])))
+		msg = raw_input(prompt)
+		print '---'
