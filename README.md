@@ -17,4 +17,4 @@ or make a link ...
 
 ... and then run
 
-`$> sntt
+`$> sntt`
