@@ -18,3 +18,8 @@ or make a link ...
 ... and then run
 
 `$> sntt`
+
+LICENCE
+=======
+
+GPLv3, see COPYING file
