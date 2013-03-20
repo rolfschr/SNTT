@@ -1,4 +1,20 @@
 SNTT
 ====
 
-Simple Number Typing Tutor
+Simple Number Typing Tutor helps you to learn typing numbers on a keyboard.
+
+USAGE
+=====
+
+Simply run
+
+`$> ./sntt`
+
+or make a link ...
+
+`$> cd ~/bin`
+`$> ln -s link/to/sntt.git/sntt`
+
+... and then run
+
+`$> sntt
