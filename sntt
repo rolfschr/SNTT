@@ -6,7 +6,7 @@ def gen(size = 10):
 	return random.sample(range(10), size)
 
 if __name__ == '__main__':
-	print 'Type \'q\' to quit'
+	print 'Type \'q\' to quit.'
 	prompt = '> '
 	msg = ''
 	time_slices = []
