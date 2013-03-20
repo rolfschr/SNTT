@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import random
+import random, time
 
 def gen(size = 10):
 	return random.sample(range(10), size)
@@ -9,8 +9,14 @@ if __name__ == '__main__':
 	print 'Type \'q\' to quit'
 	prompt = '> '
 	msg = ''
+	time_slices = []
 	while (msg != 'q'):
 		target = gen()
 		print '%s%s' % (prompt, (' '.join([str(i) for i in target])))
+		start = time.time()
 		msg = raw_input(prompt)
-		print '---'
+		elapsed = round(time.time() - start, 2)
+		time_slices.append(elapsed)
+		print '%ss' % elapsed
+	time_slices = time_slices[:1]
+	print 'avg: %s' % (sum(time_slices) / float(len(time_slices)))
